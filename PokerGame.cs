@@ -8,16 +8,29 @@ namespace Poker
     public class PokerGame
     {
         private string Input;
+        private string Winner;
 
         public PokerGame(string input)
         {
-            this.Input = input;
+            Input = input;
+            FindWinner();
         }
 
-        public string findWinner()
+        public PokerGame()
         {
-            //TODO gjør noe lurt
-            return Input;
+            Input = Console.ReadLine();
+            FindWinner();
+            Console.WriteLine(Winner);
+        }
+
+        public void FindWinner()
+        {
+            Winner = Input.Split(':')[0];
+        }
+
+        public string GetWinner()
+        {
+            return Winner;
         }
     }
 }
