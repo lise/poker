@@ -19,7 +19,7 @@ namespace Poker
         {
             Input = Console.ReadLine();
             FindWinner();
-            Console.WriteLine(Winner);
+            Console.WriteLine(GetWinner());
         }
 
         public string GetWinner()
