@@ -13,7 +13,7 @@ namespace Poker
         public void AtOperatorSkriverInnPokerSpill(string pokerGameInput)
         {
             PokerGame pokerGame = new PokerGame(pokerGameInput);
-            CurrentResult = pokerGame.FindWinner();
+            CurrentResult = pokerGame.GetWinner();
         }
 
         [Then(@"^faar jeg tilbake '(.*)'$")]
