@@ -3,3 +3,4 @@ target
 *.suo
 bin
 obj
+_ReSharper*
