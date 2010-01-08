@@ -12,18 +12,16 @@ namespace Poker
         {
         }
 
-
-        [Given(@"^at operator skriver inn Bordkort (.*)$")]
-        public void GittAtOperatørSkriverInnBordKort(string kort)
+        [Pending]
+        [Given(@"^at operator skriver inn Ole:KH 10R, Bordkort:KS$")]
+        public void AtOperatorSkriverInnOlekh10rBordkortks()
         {
-            //PokerGame game = new PokerGame();
-            //game.addTableCards(kort);
         }
 
-        [Then(@"^faar jeg tilbake Registrert kort (.*) paa bordet.$")]
-        public void FårJegTilbake(string registrerteKort)
+        [Pending]
+        [Then(@"^faar jeg tilbake Ole med 1 par$")]
+        public void FaarJegTilbakeOleMed1Par()
         {
-            //game.getTableCards();
         }
     }
 }
