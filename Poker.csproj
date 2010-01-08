@@ -56,6 +56,7 @@
     <None Include="features\rangere_hender.feature" />
     <None Include="features\registrere_kort.feature" />
     <None Include="features\registrere_kort_paa_person.feature" />
+    <None Include="features\registrere_kort_paa_bord.feature" />
     <None Include="features\step_definitions\cucumber.wire" />
     <None Include="features\support\env.rb" />
   </ItemGroup>
