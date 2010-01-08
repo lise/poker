@@ -7,5 +7,7 @@ Egenskap: Lese inn bordkort
     Gitt at operator skriver inn 'Ole:KH 10R, Bordkort:KS' 
     Så faar jeg tilbake 'Ole med 1 par'
     
-  
+  Scenario: skriver inn to deltakere og 1 bordkort
+    Gitt at operator skriver inn 'Ole:KH TR, Mats:KS KR, Bordkort:TH'
+    Så faar jeg tilbake 'Mats vant med 1 par' 
     
