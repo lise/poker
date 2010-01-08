@@ -8,7 +8,6 @@ namespace Poker
     public class PokerGame
     {
         private string Input { get; set; }
-        private string Winner {get; set; }
 
         public PokerGame(string input)
         {
@@ -24,12 +23,12 @@ namespace Poker
 
         public string GetWinner()
         {
-            return "Ole med 1 par";
+            return FindWinner() + " vant";
         }
 
-        private void FindWinner()
+        private string FindWinner()
         {
-            Winner = Input.Split(':')[0];
+            return Input.Split(':')[0];
         }
     }
 }
