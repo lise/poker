@@ -7,17 +7,17 @@ namespace Poker
 {
     public class PokerGame
     {
-        private string Input;
+        private string Input { get; set; }
 
         public PokerGame(string input)
         {
-            this.Input = input;
+            Input = input;
         }
 
-        public string findWinner()
+        public string FindWinner()
         {
             //TODO gjør noe lurt
-            return Input;
+            return "Ole med 1 par";
         }
     }
 }
